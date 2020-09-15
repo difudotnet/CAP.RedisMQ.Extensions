@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{85C0A3CC-CC45-4641-BC40-449242D5F231}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.CAP.RedisMQ", "src\DotNetCore.CAP.RedisMQ\DotNetCore.CAP.RedisMQ.csproj", "{A105AAD8-56AB-4E45-9E12-DA0E3E331DBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{ADC42FB5-8EC3-41AA-8F37-583033FFA690}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.ConsoleApp", "samples\Sample.ConsoleApp\Sample.ConsoleApp.csproj", "{8A3595B2-7CAC-444D-8ECA-498E19520A96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.RedisMQ", "samples\Sample.RedisMQ\Sample.RedisMQ.csproj", "{1E7F4164-14E4-4B08-A61F-C72D0F667722}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A105AAD8-56AB-4E45-9E12-DA0E3E331DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A105AAD8-56AB-4E45-9E12-DA0E3E331DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A105AAD8-56AB-4E45-9E12-DA0E3E331DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A105AAD8-56AB-4E45-9E12-DA0E3E331DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A3595B2-7CAC-444D-8ECA-498E19520A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A3595B2-7CAC-444D-8ECA-498E19520A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A3595B2-7CAC-444D-8ECA-498E19520A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A3595B2-7CAC-444D-8ECA-498E19520A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E7F4164-14E4-4B08-A61F-C72D0F667722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E7F4164-14E4-4B08-A61F-C72D0F667722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E7F4164-14E4-4B08-A61F-C72D0F667722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E7F4164-14E4-4B08-A61F-C72D0F667722}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A105AAD8-56AB-4E45-9E12-DA0E3E331DBF} = {85C0A3CC-CC45-4641-BC40-449242D5F231}
+		{8A3595B2-7CAC-444D-8ECA-498E19520A96} = {ADC42FB5-8EC3-41AA-8F37-583033FFA690}
+		{1E7F4164-14E4-4B08-A61F-C72D0F667722} = {ADC42FB5-8EC3-41AA-8F37-583033FFA690}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C2C7A92-D024-43BD-B472-BB359245BF48}
+	EndGlobalSection
+EndGlobal
