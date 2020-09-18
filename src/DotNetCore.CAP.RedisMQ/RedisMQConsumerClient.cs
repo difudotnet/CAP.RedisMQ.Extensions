@@ -31,7 +31,7 @@ namespace DotNetCore.CAP.RedisMQ
             IConnectionChannelPool connectionChannelPool,
             IOptions<RedisMQOptions> options)
         {
-            _queueName = queueName;
+             _queueName = queueName;
             _connectionChannelPool = connectionChannelPool;
             _redisMQOptions = options.Value;
             _channel = connectionChannelPool.Rent();
@@ -97,11 +97,11 @@ namespace DotNetCore.CAP.RedisMQ
             {
                 Task.Run(() => ListeningMq(redisReliableQueue), cancellationToken);
             }
-            while (true)
-            {
-                cancellationToken.ThrowIfCancellationRequested();
-                cancellationToken.WaitHandle.WaitOne(timeout);
-            }
+            // while (true)
+            // {
+            //     cancellationToken.ThrowIfCancellationRequested();
+            //     cancellationToken.WaitHandle.WaitOne(timeout);
+            // }
             // ReSharper disable once FunctionNeverReturns
         }
 

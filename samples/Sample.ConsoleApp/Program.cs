@@ -29,9 +29,9 @@ namespace Sample.ConsoleApp
                 //x.UseRedisMQ("server=192.168.13.214:6379;password=123456;db=2");
                 x.UseRedisMQ(op =>
                 {
-                    op.Server = "192.168.13.214:6379";
-                    op.Password = "123456";
-                    op.Db = 2;
+                    op.Server = "129.211.129.92:63709";
+                    op.Password = "redisPass";
+                    op.Db = 14;
                 });
             });
 

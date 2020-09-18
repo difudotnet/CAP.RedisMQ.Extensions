@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.ConsoleApp", "sample
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.RedisMQ", "samples\Sample.RedisMQ\Sample.RedisMQ.csproj", "{1E7F4164-14E4-4B08-A61F-C72D0F667722}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.RedisMQ.SqlServer", "samples\Sample.RedisMQ.SqlServer\Sample.RedisMQ.SqlServer.csproj", "{5A9D68E6-97C3-4EE3-9D8E-30FA0F8FE998}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{1E7F4164-14E4-4B08-A61F-C72D0F667722}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E7F4164-14E4-4B08-A61F-C72D0F667722}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E7F4164-14E4-4B08-A61F-C72D0F667722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9D68E6-97C3-4EE3-9D8E-30FA0F8FE998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9D68E6-97C3-4EE3-9D8E-30FA0F8FE998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9D68E6-97C3-4EE3-9D8E-30FA0F8FE998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9D68E6-97C3-4EE3-9D8E-30FA0F8FE998}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{A105AAD8-56AB-4E45-9E12-DA0E3E331DBF} = {85C0A3CC-CC45-4641-BC40-449242D5F231}
 		{8A3595B2-7CAC-444D-8ECA-498E19520A96} = {ADC42FB5-8EC3-41AA-8F37-583033FFA690}
 		{1E7F4164-14E4-4B08-A61F-C72D0F667722} = {ADC42FB5-8EC3-41AA-8F37-583033FFA690}
+		{5A9D68E6-97C3-4EE3-9D8E-30FA0F8FE998} = {ADC42FB5-8EC3-41AA-8F37-583033FFA690}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5C2C7A92-D024-43BD-B472-BB359245BF48}
